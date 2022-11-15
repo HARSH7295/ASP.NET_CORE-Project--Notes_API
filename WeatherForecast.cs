@@ -1,0 +1,13 @@
+namespace NotesAPI___with_Repository_Pattern_and_Dtos
+{
+    public class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+
+        public string? Summary { get; set; }
+    }
+}
